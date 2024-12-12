@@ -1,13 +1,13 @@
 {% set name = "zabbix_utils" %}
-{% set version = "1.1.1" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/zabbix_utils-{{ version }}.tar.gz
-  sha256: 5a3d84832e9f5aa3777c702da3b23980b334fb185d4d95dd68ee800b0fb40cd8
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/zabbix_utils-{{ version }}.tar.gz
+  sha256: 3c4a98a24c101d89fd938ebe0ad6c9aaa391ac901f2afb75ae682eea88fb77af
 
 build:
   noarch: python
